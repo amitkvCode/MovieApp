@@ -1,4 +1,5 @@
 import "./App.css";
+import Search from "./components/Search";
 
 const App = () => {
   return (
@@ -12,6 +13,8 @@ const App = () => {
             Find <span className="text-gradient">Movies</span> You’ll Love Without the Hassle
           </h1>
         </header>
+
+        <Search></Search>
       </div>
   
   </main>
